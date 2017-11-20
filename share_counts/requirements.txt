@@ -1,0 +1,6 @@
+algorithmia==0.9.3
+beautifulsoup4==4.4.1
+Flask==0.10.1
+pexpect==4.0.1
+PyVirtualDisplay==0.1.5
+selenium==2.48.0

@@ -1,0 +1,39 @@
+swagger: "2.0"
+info:
+  title: "ShareCounts"
+  description: "Count Social Shares"
+  termsOfService: "http://swagger.io/terms/"
+  x-21-usage: "Provide a URL, and it will return the # of times it has been shared on social media"
+  x-21-quick-buy: ""
+  x-21-category: "Social"
+  x-21-total-price:
+    min: 3000
+    max: 3000
+  x-21-github-profile-url: "https://github.com/21dotco"
+  x-21-github-project-url: "https://github.com/21dotco"
+  contact:
+    name: ""
+    email: "test@21.co"
+    url: "https://21.co"
+  license:
+    name: "MIT"
+    url: "https://opensource.org/licenses/MIT"
+  x-21-keywords:
+    - "social"
+    - "twitter"
+    - "facebook"
+    - "pinterest"
+    - "linkedIn"
+  version: "0.1"
+host: ""
+schemes:
+  - "http"
+basePath: "/"
+x-21-healthcheck-path: "/healthcheck"
+x-21-manifest-path: "/manifest"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: "OK"
